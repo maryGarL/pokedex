@@ -22,15 +22,15 @@ const listaPokemon = (object,update)=>{
     pokebola.append(pokemon);
 
     icon1.on('click',() => {
-  $('.modal').modal();
-  /*const cloneImg = figure.clone();
-  const cloneIcon = fondo.clone();
-  $(".poke-content").empty();
-  $(cloneImg).appendTo(".poke-content");
-  $(cloneIcon).appendTo(".poke-content");
-  const cloneName = pokemon.clone();
-  $(".pokeName").empty();
-  $(cloneName).appendTo(".pokeName");
+    $('#modal1').modal();
+    const clonarImg = figure.clone();
+    const clonarIcon = fondo.clone();
+    $(".poke-content").empty();
+    $(clonarImg).appendTo(".poke-content");
+    $(clonarIcon).appendTo(".poke-content");
+    const clonar = pokemon.clone();
+    $(".pokeName").empty();
+    $(clonar).appendTo(".pokeName");
 
   $.get(object.pokemon_species.url,(data) => {
     console.log(data);
