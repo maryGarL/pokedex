@@ -37,7 +37,7 @@ const listaPokemon = (object,update)=>{
      let valor = data.flavor_text_entries[3].flavor_text;
      $('.pokeInfo').html(valor);
 
-   })*/
+   })
 });
 
     return listado;
